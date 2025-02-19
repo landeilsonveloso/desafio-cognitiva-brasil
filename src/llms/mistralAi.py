@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 client = Mistral(
-    api_key=os.getenv("API_KEY_MISTRALAI")
+    api_key=os.getenv("MISTRALAI_API_KEY")
 )
 
 def mistralAi(prompt):
